@@ -156,12 +156,12 @@ var items = [
           "Option 2"]
         }
       ],
-
+  /*
   ["filler", "Question", {
     q: "filler2",
     as: [ "Option 1",
           "Option 2"]
         }
       ]
-
+      */
 ];
