@@ -7,7 +7,7 @@
     filler2 -
 */
 
-var shuffleSequence = seq("intro", "practice", "formalExpert", "informalExpert"); // Work out randomization for items
+var shuffleSequence = seq("practice", "formalExpert", "informalExpert"); // Work out randomization for items
 var practiceItemTypes = ["practice"]; // Practice Items?
 var centerItems = true;
 
@@ -68,7 +68,7 @@ var items = [
 
   ["formalExpert01", "Question", {hasCorrect: false, randomOrder: false, showNumbers: true,
     q: "...",
-    as: ["Option 1"] 
+    as: ["Option 1"]
         }
       ],
   /*
