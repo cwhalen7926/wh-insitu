@@ -13,12 +13,12 @@ var centerItems = true;
 
 
 var defaults = [
-  "Question", {
+  /*"Question", {
       //"as" option is obligatory
       // hasCorrect: true
         //if a question has a correct answer,
           //keep it as the first element of the "as" option
-  },
+  },*/
 
   "Form", {
       //"html" option is obligatory
