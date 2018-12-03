@@ -59,7 +59,7 @@ var items = [
     q: "...",
     as: [ "Option 1",
           "Option 2"
-        ]}],
+        ]}]
   /*
   ["target1_02", "Question", {hasCorrect: false, randomOrder: false, showNumbers: true,
     q: "...",
