@@ -133,7 +133,7 @@ var items = [
         }
       ],
       */
-      /*
+
   // NEGATIVE FILLERS
   ["filler", "Question", {
     q: "filler1",
@@ -141,14 +141,14 @@ var items = [
           "Option 2"]
         }
       ],
-  /*
+
   ["filler", "Question", {
     q: "filler1",
     as: [ "Option 1",
           "Option 2"]
         }
       ],
-  */
+  
   // UNIVERSAL QUANT FILLERS
   ["filler", "Question", {
     q: "filler2",
