@@ -15,7 +15,6 @@ var centerItems = true;
 var defaults = [
   "Question", {
       //"as" option is obligatory
-      as: ["Yes", "No"],
       hasCorrect: true
         //if a question has a correct answer,
           //keep it as the first element of the "as" option
@@ -68,7 +67,8 @@ var items = [
   */
 
   ["formalExpert01", "Question", {hasCorrect: false, randomOrder: false, showNumbers: true,
-    q: "..."
+    q: "...",
+    as: ["Option 1"] 
         }
       ],
   /*
