@@ -7,7 +7,7 @@
     filler2 -
 */
 
-var shuffleSequence = seq("practice", "formalExpert", "informalExpert"); // Work out randomization for items
+var shuffleSequence = seq("practice", "formalExpert"); // Work out randomization for items
 var practiceItemTypes = ["practice"]; // Practice Items?
 var centerItems = true;
 
@@ -15,7 +15,7 @@ var centerItems = true;
 var defaults = [
   "Question", {
       //"as" option is obligatory
-      hasCorrect: true
+      // hasCorrect: true
         //if a question has a correct answer,
           //keep it as the first element of the "as" option
   },
