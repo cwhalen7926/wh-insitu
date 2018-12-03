@@ -63,31 +63,15 @@ var items = [
     as: [ "Option 1",
           "Option 2"]
         }
-      ];
+      ],
   */
 
   ["formalExpert", "Question", {hasCorrect: false, randomOrder: false, showNumbers: true,
     q: "...",
-    as: ["Option 1", "Option 2"]
+    as: [ "Option 1", 
+          "Option 2"]
         }
       ],
-  /*
-  ["target1_02", "Question", {hasCorrect: false, randomOrder: false, showNumbers: true,
-    q: "...",
-    as: [ "Option 1",
-          "Option 2"
-        ]}];
-  ["target1_03", "Question", {hasCorrect: false, randomOrder: false, showNumbers: true,
-    q: "...",
-    as: [ "Option 1",
-          "Option 2"
-        ]}];
 
-  ["target1_04", "Question", {hasCorrect: false, randomOrder: false, showNumbers: true,
-    q: "...",
-    as: [ "Option 1",
-          "Option 2"
-        ]}];
-  */
 
 ];
