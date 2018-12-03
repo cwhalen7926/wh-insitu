@@ -68,7 +68,7 @@ var items = [
 
   ["formalExpert", "Question", {hasCorrect: false, randomOrder: false, showNumbers: true,
     q: "...",
-    as: ["Option 1"]
+    as: [["Option 1"], ["Option 2"]]
         }
       ],
   /*
