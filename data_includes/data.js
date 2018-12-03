@@ -1,24 +1,30 @@
 /*
 -- WH judgement task
 -- Key for Items:
-    formalExpert
-    informalExpert -
-    filler1 - ne... pas/aucun fillers
-    filler2 -
+    formal1 - expert
+    formal2 - non expert
+    informal2 - expert
+    informal2 - non expert
+    filler1 - negative, formal fillers
+    filler2 - negative, informal
+    filler3 - universal, formal
+    filler4 - universal, informal
 */
 
-var shuffleSequence = seq("practice", "formalExpert"); // Work out randomization for items
+var shuffleSequence = seq("practice", shuffle(randomize(filler), shuffle(randomize("formal1"), randomize("informal1")))); // Work out randomization for items
 var practiceItemTypes = ["practice"]; // Practice Items?
 var centerItems = true;
 
 
 var defaults = [
-  /*"Question", {
+  "Question", {
       //"as" option is obligatory
-      // hasCorrect: true
+      hasCorrect: false,
+      randomOrder: false,
+      showNumbers: true
         //if a question has a correct answer,
           //keep it as the first element of the "as" option
-  },*/
+  },
 
   "Form", {
       //"html" option is obligatory
@@ -58,7 +64,7 @@ var items = [
 
   /*
   TEMPLATE for all items
-  ["type", "Question", {hasCorrect: false, randomOrder: false, showNumbers: true,
+  ["type", "Question", {
     q: "...",
     as: [ "Option 1",
           "Option 2"]
@@ -66,12 +72,94 @@ var items = [
       ],
   */
 
-  ["formalExpert", "Question", {hasCorrect: false, randomOrder: false, showNumbers: true,
-    q: "...",
-    as: [ "Option 1", 
+  // FORMAL
+  ["formal1", "Question", {
+    q: "formal1",
+    as: [ "Option 1",
           "Option 2"]
         }
       ],
 
+  ["formal1", "Question", {
+    q: "formal1",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
 
+  /*/ Formal non-expert items
+  ["formal2_01", "Question", {
+    q: "formal2",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+
+  ["formal2_02", "Question", {
+    q: "formal2",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+      */
+
+  // INFORMAL
+  ["informal1", "Question", {
+    q: "informal1",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+  ["informal1", "Question", {
+    q: "informal1",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+
+  /*/ Informal non-expert items
+  ["informal2_01", "Question", {
+    q: "informal2",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+
+  ["informal2_02", "Question", {
+    q: "informal2",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+      */
+
+  // NEGATIVE FILLERS
+  ["filler", "Question", {
+    q: "filler1",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+
+  ["filler", "Question", {
+    q: "filler1",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+
+  // UNIVERSAL QUANT FILLERS
+  ["filler", "Question", {
+    q: "filler2",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+
+  ["filler", "Question", {
+    q: "filler2",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
 ];
