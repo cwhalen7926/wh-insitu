@@ -6,8 +6,7 @@
     filler -
 */
 
-var shuffleSequence = seq("practice", shuffle(randomize(startsWith("filler")), shuffle(randomize("formal"), randomize("informal")))); // Work out randomization for items
-var practiceItemTypes = ["practice"]; // Practice Items?
+var shuffleSequence = seq("practice", shuffle(randomize(startsWith("filler")), shuffle(randomize(startsWith("formal")), randomize(startsWith("informal")))));
 var centerItems = true;
 
 
@@ -68,29 +67,29 @@ var items = [
   */
 
   // FORMAL
-  ["formal1", "Question", {
-    q: "formal1",
+  ["formal01", "Question", {
+    q: "formal",
     as: [ "Option 1",
           "Option 2"]
         }
       ],
 
-  ["formal1", "Question", {
-    q: "formal1",
+  ["formal02", "Question", {
+    q: "formal",
     as: [ "Option 1",
           "Option 2"]
         }
       ],
 
   // INFORMAL
-  ["informal1", "Question", {
+  ["informal01", "Question", {
     q: "informal1",
     as: [ "Option 1",
           "Option 2"]
         }
       ],
 
-  ["informal1", "Question", {
+  ["informal02", "Question", {
     q: "informal1",
     as: [ "Option 1",
           "Option 2"]
