@@ -3,12 +3,12 @@
 -- Key for Items:
     formalExpert
     informalExpert -
-    filler1Informal - ne... pas/aucun fillers
-    filler2informalExpert -
+    filler1 - ne... pas/aucun fillers
+    filler2 -
 */
 
-var shuffleSequence = seq(anytype); // Work out randomization for items
-var practiceItemTypes; // Practice Items?
+var shuffleSequence = seq("intro", "practice", "formalExpert", "informalExpert"); // Work out randomization for items
+var practiceItemTypes = ["practice"]; // Practice Items?
 var centerItems = true;
 
 
@@ -19,6 +19,13 @@ var defaults = [
       hasCorrect: true
         //if a question has a correct answer,
           //keep it as the first element of the "as" option
+  },
+
+  "Form", {
+      //"html" option is obligatory
+      hideProgressBar: true,
+      continueOnReturn: true,
+      saveReactionTime: true
   }
 ];
 
@@ -44,22 +51,26 @@ var items = [
       }
   } ],
 
+  //PRACTICE Items
+
+  ["practice", "DashedSentence", {s: "This is a practice sentence before the experiment begins."}],
+
   // TARGET ITEMS
 
   /*
   TEMPLATE for all items
-  ["target1_01", "Question", {hasCorrect: false, randomOrder: false, showNumbers: true,
+  ["type", "Question", {hasCorrect: false, randomOrder: false, showNumbers: true,
     q: "...",
     as: [ "Option 1",
-          "Option 2"
-        ]}];
+          "Option 2"]
+        }
+      ];
   */
 
-  ["target1_01", "Question", {hasCorrect: false, randomOrder: false, showNumbers: true,
-    q: "...",
-    as: [ "Option 1",
-          "Option 2"
-        ]}]
+  ["formalExpert01", "Question", {hasCorrect: false, randomOrder: false, showNumbers: true,
+    q: "..."
+        }
+      ],
   /*
   ["target1_02", "Question", {hasCorrect: false, randomOrder: false, showNumbers: true,
     q: "...",
@@ -78,4 +89,5 @@ var items = [
           "Option 2"
         ]}];
   */
+
 ];
