@@ -79,7 +79,7 @@ var items = [
           "Option 2"]
         }
       ],
-
+  /*
   ["formal1", "Question", {
     q: "formal1",
     as: [ "Option 1",
@@ -87,7 +87,7 @@ var items = [
         }
       ],
 
-  /*/ Formal non-expert items
+  // Formal non-expert items
   ["formal2_01", "Question", {
     q: "formal2",
     as: [ "Option 1",
@@ -110,6 +110,7 @@ var items = [
           "Option 2"]
         }
       ],
+  /*
   ["informal1", "Question", {
     q: "informal1",
     as: [ "Option 1",
@@ -117,7 +118,7 @@ var items = [
         }
       ],
 
-  /*/ Informal non-expert items
+  // Informal non-expert items
   ["informal2_01", "Question", {
     q: "informal2",
     as: [ "Option 1",
@@ -132,7 +133,7 @@ var items = [
         }
       ],
       */
-
+      /*
   // NEGATIVE FILLERS
   ["filler", "Question", {
     q: "filler1",
@@ -140,14 +141,14 @@ var items = [
           "Option 2"]
         }
       ],
-
+  /*
   ["filler", "Question", {
     q: "filler1",
     as: [ "Option 1",
           "Option 2"]
         }
       ],
-
+  */
   // UNIVERSAL QUANT FILLERS
   ["filler", "Question", {
     q: "filler2",
@@ -161,5 +162,6 @@ var items = [
     as: [ "Option 1",
           "Option 2"]
         }
-      ],
+      ]
+
 ];
