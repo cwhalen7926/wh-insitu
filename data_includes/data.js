@@ -66,7 +66,7 @@ var items = [
       ];
   */
 
-  ["formalExpert01", "Question", {hasCorrect: false, randomOrder: false, showNumbers: true,
+  ["formalExpert", "Question", {hasCorrect: false, randomOrder: false, showNumbers: true,
     q: "...",
     as: ["Option 1"]
         }
