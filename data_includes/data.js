@@ -11,7 +11,7 @@
     filler4 - universal, informal
 */
 
-var shuffleSequence = seq("practice", shuffle(randomize(filler), shuffle(randomize("formal1"), randomize("informal1")))); // Work out randomization for items
+var shuffleSequence = seq("practice", shuffle(randomize("filler"), shuffle(randomize("formal1"), randomize("informal1")))); // Work out randomization for items
 var practiceItemTypes = ["practice"]; // Practice Items?
 var centerItems = true;
 
@@ -156,12 +156,12 @@ var items = [
           "Option 2"]
         }
       ],
-  /*
+
   ["filler", "Question", {
     q: "filler2",
     as: [ "Option 1",
           "Option 2"]
         }
       ]
-      */
+
 ];
