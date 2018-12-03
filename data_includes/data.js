@@ -6,16 +6,25 @@
     filler -
 */
 
-var shuffleSequence = seq("practice", shuffle(randomize(startsWith("filler")), shuffle(randomize(startsWith("formal")), randomize(startsWith("informal")))));
+var shuffleSequence = seq(shuffle(randomize(startsWith("filler")), shuffle(randomize(startsWith("formal")), randomize(startsWith("informal")))));
 var centerItems = true;
 
 
 var defaults = [
+
+  "Separator", {
+      transfer: 1000, //wait for 1000ms
+        //other options: "keypress", "click"
+      normalMessage: "Please wait for the next sentence.", //message to be displayed
+      // errorMessage: "Wrong. Please wait for the next sentence." //message to be displayed in red
+  },
+
   "Question", {
       //"as" option is obligatory
       hasCorrect: false,
       randomOrder: false,
-      showNumbers: true
+      showNumbers: true,
+      instructions: "S'il vous plaît, lisez la réplique et choisissez la réponse qui vous semble la plus naturelle."
         //if a question has a correct answer,
           //keep it as the first element of the "as" option
   },
@@ -33,6 +42,13 @@ var items = [
   Do we need separators?
   Is there a way to import from CSV?
   */
+
+  //ends after timer (1000ms)
+  ["sep", "Separator", {transfer: 1000, normalMessage: "Merci d'attendre la prochaine phrase."}],
+
+  //ends when key is press
+  ["sep", "Separator", {transfer: "keypress", normalMessage: "Please press any key to continue."}],
+
 
   /*
   INTRODUCTION
