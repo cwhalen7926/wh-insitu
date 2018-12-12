@@ -84,7 +84,7 @@ var items = [
 
   // FORMAL
   ["formal01", "Question", {
-    q: "Un participant s’adressant au formateur qui a presenté une étude sur le placement des produits en rayon. C’est très interessant ce que vous dites. Alors selon vous :",
+    q: "Un participant s’adressant au formateur qui a présenté une étude sur le placement des produits en rayon. C’est très intéressant ce que vous dites. Alors selon vous :",
     as: [ "Les articles de toilettes seraient où dans ce magasin?",
           "Où seraient les articles de toilettes dans ce magasin?"]
         }
@@ -98,7 +98,7 @@ var items = [
       ],
 
   ["formal03", "Question", {
-    q: "S’addressant a un chef de gare sur le quai d’un train qui arrive en gare :",
+    q: "S’addressant à un chef de gare sur le quai d’un train qui arrive en gare :",
     as: [ "Pardon, j’ai besoin d’aide. Il va où, ce train?",
           "Pardon, j’ai besoin d’aide.  Où il va, ce train?"]
         }
@@ -113,14 +113,14 @@ var items = [
 
   ["formal05", "Question", {
     q: "Dans une station de bus, au guichet : ",
-    as: [ "Bonjour, il part quand le prochain bus 23?",
+    as: [ "Bonjour, le prochain bus 23 part quand?",
           "Bonjour, quand part le prochain bus 23?"]
         }
       ],
 
   ["formal06", "Question", {
     q: "Dans un abri-bus a un inconnu qui attend aussi :",
-    as: [ "Bonjour, il part quand le prochain bus 23?",
+    as: [ "Bonjour, le prochain bus 23 part quand?",
           "Bonjour, quand part le prochain bus 23?"]
         }
       ],
@@ -285,14 +285,14 @@ var items = [
   ["filler29", "Question", {
     q: "Un hotelier à son collègue :",
     as: [ "Toutes les tables sont décorées?",
-          "Les tables sont tous décorées?"]
+          "Les tables sont toutes décorées?"]
         }
       ],
 
   ["filler30", "Question", {
     q: "Une maman a son fils le jour de son anniversaire :",
     as: [ "Toutes les tables sont décorées?",
-          "Les tables sont tous décorées?"]
+          "Les tables sont toutes décorées?"]
         }
       ],
 
