@@ -6,7 +6,7 @@
     filler -
 */
 
-var shuffleSequence = seq(shuffle(randomize(startsWith("filler")), shuffle(randomize(startsWith("formal")), randomize(startsWith("informal")))));
+var shuffleSequence = seq("intro", shuffle(randomize(startsWith("filler")), shuffle(randomize(startsWith("formal")), randomize(startsWith("informal")))));
 var centerItems = true;
 
 

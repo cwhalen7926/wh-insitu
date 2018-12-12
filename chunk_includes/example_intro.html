@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
 	<title> Experiment Questionaire </title>
@@ -59,21 +59,28 @@ Below is an example of how to load an image without showing it.
 
 <!-- Start of the actual, visible body of the file -->
 <form style="width: 40em;">
-<h1>WELCOME!</h1>
+<h1>Bienvenue!</h1>
 <p>
-You are invited to participate in a research study on language. The purpose of this study is to investigate some of the properties of natural language.
+Vous êtes invités à participer à une étude dirigée par Viviane Déprez, directrice de recherche au CNRS et professeur à l'Université de Rutgers. Le but de cette étude est de mieux comprendre la préférence que les locuteurs du français de tous les jours pourraient avoir dans le choix de phrases qui ont un sens quasi identique selons leur âge et leur origine régionale ou sociale.
 </p>
 <p>
-<b>What we will ask you to do: </b><br>If you agree to participate in this study, you will be asked to read sentences and rate them according to their naturalness, and/or answers questions about their content. Before beginning the study, you will be asked to fill out some basic information about your linguistic background and demographics.
+60 sujets participeront à cette étude. Cette étude est confidentielle, ce qui signifie que les informations de cette recherche incluront quelques données personnelles. Ces informations seront conservées de telle façon qu’un lien entre votre identité et vos réponses sera impossible. Les informations personnelles incluront votre âge, votre genre, et votre identité linguistique. Ces informations confidentielles seront conservées au Laboratoire de Syntaxe Comparative et Expérimentale. L'équipe de recherche et l’Institutional Review Board à Rutgers sont les seuls partis qui auront accès à ces données sauf si mandaté par la loi. Seuls des résultats de groupe seront utilisés, si cette étude donne lieu à une publication où une présentation à une présentation professionnelle, seul des résultats de groupe seront utilisés. La participation à cette étude ne présente aucun risque anticipé.
 </p>
 <p>
-<b>Risks and benefits: </b><br>This experiment involves no known risks or discomfort to you, nor is it expected to be of any direct benefit to you. You will receive a compensation for your participation through Amazon Mechanical Turk. Be sure to enter the correct worker ID at the end of the experiment so we can process your payment.
+La participation à cette étude est volontaire. C'est vous qui décidez de participer ou non et vous pouvez vous retirer à n'importe quel moment sans conséquence. Vous êtes libre de ne pas répondre aux questions qui vous dérangent.
 </p>
 <p>
-<b>Taking part is voluntary: </b><br>Your participation is completely voluntary. You are free to withdraw consent and discontinue participation in the project at any time.
+Les résultats de cette expérience ne vous seront communiqués que sur requête expresse.
 </p>
 <p>
-<b>Your answers will be confidential: </b><br>The responses will be stored on a password protected computer. The results we collect will not be linked to your identity.
+<b>Description de l'étude : </b><br>L'expérience inclut 32 situations. Pour chacune de ces situations, vous devez choisir entre deux phrases, celle qui selon vous correspond le mieux à ce qu'un locuteur du français quotidien dirait dans cette situation.
+<br>
+Lisez le contexte, puis les phrases et faîtes votre choix en cliquant sur les boutons pertinents.
+Cliquez SUIVANT pour continuer.
+<br></br>
+Avant de commencer l'expérience, vous aurez deux essais pour vous entraîner.
+<br></br>
+Quand vous aurez fini les questions, merci de remplir un bref questionnaire démographique. Cliquez SOUMETTRE VOS RÉPONSES pour finir l'expérience.
 </p>
 <p>
 <b>If you have any questions: </b><br>Please also feel free to contact the investigators at _____EMAIL_____ if you have any questions. If you have any questions or concerns regarding your rights as a subject in this study, you may contact the Research Ethics Board Office at __________ or access their website at: _____URL______
@@ -82,9 +89,9 @@ You are invited to participate in a research study on language. The purpose of t
 <!-- concent validation -->
 <table>
 <tr>
-  <td><i>I have read the above information. I consent to take part in the study.  </i></td>
+  <td><i>J'ai lu l'information ci-dessus. Je consens participer dans l'étude.  </i></td>
   <td><input name="consent", class = "obligatory", type="radio" value="yes" id="consentyes"/>
-      <label for="consentcx">I consent</label></td>
+      <label for="consentcx">Je consens</label></td>
 </tr>
 <tr>
 <td colspan="2"><label class="error" for="consent"></label></td>
@@ -93,7 +100,7 @@ You are invited to participate in a research study on language. The purpose of t
 </table>
 
 
-
+<!--
 <h1> SOME QUESTIONS </h1>
 <table>
 <tr>
@@ -103,7 +110,7 @@ with Ibex.)</i>
 </td>
 </tr>
 
-<!-- question with obligatory answer that has to be a number -->
+<!-- question with obligatory answer that has to be a number
 <tr>
   <td>What is your age?</td><td><input name="age" type="text" size="30" class="obligatory" /></td>
 </tr>
@@ -111,7 +118,7 @@ with Ibex.)</i>
 <td colspan="2"><label class="error" for="age"></label></td>
 </tr>
 
-<!-- question with a small text box to answer, answer is obligatory -->
+<!-- question with a small text box to answer, answer is obligatory
 <tr>
   <td>What is your native language? </td><td><input name="language" type="text" size="30" class="obligatory" /></td>
 </tr>
@@ -119,7 +126,7 @@ with Ibex.)</i>
 <td colspan="2"><label class="error" for="language"></label></td>
 </tr>
 
-<!-- question with a big text box to answer, answer is NOT obligatory -->
+<!-- question with a big text box to answer, answer is NOT obligatory
 <tr>
   <td colspan="2">What other languages do you speak?</td>
 </tr>
@@ -129,7 +136,7 @@ with Ibex.)</i>
   </td>
 </tr>
 
-<!-- question with yes or no answer -->
+<!-- question with yes or no answer
 <tr>
   <td>Have you ever taken a linguistics class?</td><td><input name="linclass" type="radio" value="yes" class="obligatory" id="linclassyes" /><label for="linclassyes">Yes</label>
                    <input name="linclass" type="radio" value="no" id="linclassno"/>
@@ -144,11 +151,11 @@ with Ibex.)</i>
 <tr>
   <td>How often do you read: <i>(daily, weekly, occasionally, never)</i></td>
 </tr>
-<!-- fiction scale -->
+<!-- fiction scale
 <tr>
   <td>&nbsp &nbsp &nbsp Fiction: </td>
   <td>
-    <!-- the buttons for the scalng option -->
+    <!-- the buttons for the scalng option
     <table id="Scaling">
       <tr>
          <td><label>Daily <input id="daily" type="radio" name="readingfic" value="daily" /></label></td>
@@ -164,11 +171,11 @@ with Ibex.)</i>
 </tr>
 
 
-<!-- Non-fiction scale -->
+<!-- Non-fiction scale
 <tr>
   <td>&nbsp &nbsp &nbsp Non-fiction: </td>
   <td>
-    <!-- the buttons for the scalng option -->
+    <!-- the buttons for the scalng option
     <table id="Scaling">
       <tr>
          <td><label>Daily <input id="daily" type="radio" name="readingnonfic" value="daily" /></label></td>
@@ -183,14 +190,14 @@ with Ibex.)</i>
 <td colspan="2"><label class="error" for="readingnonfic"></label></td>
 </tr>
 
-<!-- square checkbox that is not obligatory -->
+<!-- square checkbox that is not obligatory
 <tr>
 <td colspan="2" style="padding-bottom: 1em;"><input type="checkbox" name="credit" id="creditcx" /><label for="creditcx"> I am doing this experiment for credit</label></td>
 </tr>
 </table>
 </form>
 
-
+-->
 
 </body>
 </html>
