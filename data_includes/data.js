@@ -6,7 +6,7 @@
     filler -
 */
 
-var shuffleSequence = seq("intro", shuffle(randomize(startsWith("filler")), shuffle(randomize(startsWith("formal")), randomize(startsWith("informal")))));
+var shuffleSequence = seq("intro", sepWith("sep", seq(shuffle(randomize(startsWith("filler")), shuffle(randomize(startsWith("formal")), randomize(startsWith("informal")))))));
 var centerItems = true;
 
 
@@ -47,7 +47,7 @@ var items = [
   ["sep", "Separator", {transfer: 1000, normalMessage: "Merci d'attendre la prochaine phrase."}],
 
   //ends when key is press
-  ["sep", "Separator", {transfer: "keypress", normalMessage: "Please press any key to continue."}],
+  //["sep", "Separator", {transfer: "keypress", normalMessage: "Please press any key to continue."}],
 
 
   /*
@@ -84,20 +84,104 @@ var items = [
 
   // FORMAL
   ["formal01", "Question", {
-    q: "formal",
-    as: [ "Option 1",
-          "Option 2"]
+    q: "Un participant s’adressant au formateur qui a presenté une étude sur le placement des produits en rayon. C’est tres interessant ce vous dites. Alors selon vous :",
+    as: [ "Les articles de toilettes seraient où dans ce magazin?",
+          "Où seraient les articles de toilettes dans ce magazin?"]
         }
       ],
 
   ["formal02", "Question", {
-    q: "formal",
+    q: "S’adressant à une cliente perdue qui se plaint que les articles ont encore changé de place :",
+    as: [ "Les articles de toilettes sont où dans ce magazin?",
+          "Où sont les articles de toilettes dans ce magazin?"]
+        }
+      ],
+
+  ["formal03", "Question", {
+    q: "S’addressant a un chef de gare sur le quai d’un train qui arrive en gare :",
+    as: [ "Pardon, J’ai besoin d’aide. Il va où, ce train?",
+          "Pardon, j’ai besoin d’aide.  Où il va, ce train?"]
+        }
+      ],
+
+  ["formal04", "Question", {
+    q: "À un usager inconnu qui court sur le quai :",
+    as: [ "Pardon, J’ai besoin d’aide. Il va où, ce train?",
+          "Pardon, j’ai besoin d’aide.  Où il va, ce train?"]
+        }
+      ],
+
+  ["formal05", "Question", {
+    q: "Dans une station de bus, au guichet : ",
+    as: [ "Bonjour, Il part quand le prochain bus 23?",
+          "Bonjour, quand part le prochain bus 23?"]
+        }
+      ],
+
+  ["formal06", "Question", {
+    q: "Dans un abri-bus a un inconnu qui attend aussi :",
+    as: [ "Bonjour, Il part quand le prochain bus 23?",
+          "Bonjour, quand part le prochain bus 23?"]
+        }
+      ],
+
+  ["formal07", "Question", {
+    q: "À un agent de voyage qui vante la traverse de l’atlantique en bateau :",
+    as: [ "Et alors, ça prend combien de temps la traversée?",
+          "Et alors, combien de temps ça prend la traversée?"]
+        }
+      ],
+
+  ["formal08", "Question", {
+    q: "Chez le coiffeur:  1. J’aimerais bien un jour prendre le bateau pour aller aux Etats Unis. 2. Moi aussi, mais je ne l’ai jamais fait :",
+    as: [ "À votre avis, ça prend combien de temps la traversée?",
+          "À votre avis, combien de temps ça prend la traversée?"]
+        }
+      ],
+
+  // INFORMAL
+  ["informal01", "Question", {
+    q: "informal1",
     as: [ "Option 1",
           "Option 2"]
         }
       ],
 
-  // INFORMAL
+  ["informal02", "Question", {
+    q: "informal1",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+
+  ["informal01", "Question", {
+    q: "informal1",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+
+  ["informal02", "Question", {
+    q: "informal1",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+
+  ["informal01", "Question", {
+    q: "informal1",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+
+  ["informal02", "Question", {
+    q: "informal1",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+
   ["informal01", "Question", {
     q: "informal1",
     as: [ "Option 1",
@@ -127,7 +211,91 @@ var items = [
         }
       ],
 
+  ["filler01", "Question", {
+    q: "filler1",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+
+  ["filler02", "Question", {
+    q: "filler1",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+
+  ["filler01", "Question", {
+    q: "filler1",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+
+  ["filler02", "Question", {
+    q: "filler1",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+
+  ["filler01", "Question", {
+    q: "filler1",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+
+  ["filler02", "Question", {
+    q: "filler1",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+
   // UNIVERSAL QUANT FILLERS
+  ["filler03", "Question", {
+    q: "filler2",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+
+  ["filler04", "Question", {
+    q: "filler2",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+
+  ["filler03", "Question", {
+    q: "filler2",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+
+  ["filler04", "Question", {
+    q: "filler2",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+
+  ["filler03", "Question", {
+    q: "filler2",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+
+  ["filler04", "Question", {
+    q: "filler2",
+    as: [ "Option 1",
+          "Option 2"]
+        }
+      ],
+
   ["filler03", "Question", {
     q: "filler2",
     as: [ "Option 1",
