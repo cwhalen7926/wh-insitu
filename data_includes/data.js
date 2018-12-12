@@ -68,7 +68,7 @@ var items = [
 
   //PRACTICE Items
 
-  ["practice", "DashedSentence", {s: "This is a practice sentence before the experiment begins."}],
+  ["practice", "DashedSentence", {s: "Voici un example pour vous exercer."}],
 
   // TARGET ITEMS
 
