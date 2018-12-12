@@ -22,7 +22,7 @@ var defaults = [
   "Question", {
       //"as" option is obligatory
       hasCorrect: false,
-      randomOrder: false,
+      randomOrder: true,
       showNumbers: true,
       instructions: "S'il vous plaît, lisez la réplique et choisissez la réponse qui vous semble la plus naturelle."
         //if a question has a correct answer,
