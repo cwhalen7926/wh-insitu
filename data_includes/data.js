@@ -84,7 +84,7 @@ var items = [
 
   // FORMAL
   ["formal01", "Question", {
-    q: "Un participant s’adressant au formateur qui a presenté une étude sur le placement des produits en rayon. C’est tres interessant ce vous dites. Alors selon vous :",
+    q: "Un participant s’adressant au formateur qui a presenté une étude sur le placement des produits en rayon. C’est très interessant ce que vous dites. Alors selon vous :",
     as: [ "Les articles de toilettes seraient où dans ce magasin?",
           "Où seraient les articles de toilettes dans ce magasin?"]
         }
@@ -133,7 +133,7 @@ var items = [
       ],
 
   ["formal08", "Question", {
-    q: "Chez le coiffeur:  1. J’aimerais bien un jour prendre le bateau pour aller aux Etats Unis. 2. Moi aussi, mais je ne l’ai jamais fait :",
+    q: "Chez le coiffeur qui rêve de partir aux états-unis, en discutant de l'idée de prendre le bateau pour y aller :",
     as: [ "À votre avis, ça prend combien de temps la traversée?",
           "À votre avis, combien de temps ça prend la traversée?"]
         }
