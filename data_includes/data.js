@@ -140,173 +140,173 @@ var items = [
       ],
 
   // INFORMAL
-  ["informal01", "Question", {
-    q: "informal1",
-    as: [ "Option 1",
-          "Option 2"]
+  ["informal09", "Question", {
+    q: "À un ami decorateur qui vous conseille pour renover un appartement :",
+    as: [ "On peut mettre quelle couleur pour eclaircir une piece?",
+          "Quelle couleur on peut mettre pour eclairir une piece?"]
         }
       ],
 
-  ["informal02", "Question", {
-    q: "informal1",
-    as: [ "Option 1",
-          "Option 2"]
+  ["informal10", "Question", {
+    q: "À une amie qui ne s’interesse pas vraiment a la decoration?",
+    as: [ "On peut mettre quelle couleur pour eclaircir une piece?",
+          "Quelle couleur on peut mettre pour eclairir une piece?"]
         }
       ],
 
-  ["informal01", "Question", {
-    q: "informal1",
-    as: [ "Option 1",
-          "Option 2"]
+  ["informal11", "Question", {
+    q: "Une fillette à son frère : Jean, Maman a encore rangé mon nounours et je sais que tu l’as vue.",
+    as: [ "Elle l’a mis où cette fois?",
+          "Où elle l’a mis, cette fois?"]
         }
       ],
 
-  ["informal02", "Question", {
-    q: "informal1",
-    as: [ "Option 1",
-          "Option 2"]
+  ["informal12", "Question", {
+    q: "Une fillette à sa mere qui vient de rentrer a la maison : Maman, la femme de menage a encore rangé mon nounours. Tu sais toi?",
+    as: [ "Elle l’a mis où cette fois?",
+          "Où elle l’a mis, cette fois?"]
         }
       ],
 
-  ["informal01", "Question", {
-    q: "informal1",
-    as: [ "Option 1",
-          "Option 2"]
+  ["informal13", "Question", {
+    q: "Une cliente à son ami qui vend des voitures : Elle est superbe, ca c’est sur... ",
+    as: [ "Dis-moi, ça coute a peu pres combien une voiture comme ca?",
+          "Dis-moi, combien ça coute a peu pres une voiture comme ça?"]
         }
       ],
 
-  ["informal02", "Question", {
-    q: "informal1",
-    as: [ "Option 1",
-          "Option 2"]
+  ["informal14", "Question", {
+    q: "Une fille à sa copine qui admire une voiture dans un parking.",
+    as: [ "À ton avis, ça coute a peu pres combien une voiture comme ça?",
+          "À ton avis, combien ça coute a peu pres une voiture comme ça?"]
         }
       ],
 
-  ["informal01", "Question", {
-    q: "informal1",
-    as: [ "Option 1",
-          "Option 2"]
+  ["informal15", "Question", {
+    q: "À un ami expert en recrutement professionel : ",
+    as: [ "D'aprés toi, on met son experience professionelle ou dans son cv?",
+          "D'aprés toi, ou on met son experience professionelle dans son cv?"]
         }
       ],
 
-  ["informal02", "Question", {
-    q: "informal1",
-    as: [ "Option 1",
-          "Option 2"]
+  ["informal16", "Question", {
+    q: "Une fille qui fait son premier cv, à sa meilleure copine :",
+    as: [ "D'aprés toi, on met son experience professionelle ou dans son cv?",
+          "D'aprés toi, ou on met son experience professionelle dans son cv?"]
         }
       ],
 
   // NEGATIVE FILLERS
-  ["filler01", "Question", {
-    q: "filler1",
-    as: [ "Option 1",
-          "Option 2"]
+  ["filler17", "Question", {
+    q: "Un professeur du départment qui revient d’une conférence s’addressant a son collègue :",
+    as: [ "Il y avait pas d’etudiants de notre department à cette conference.",
+          "Il n’y avait aucun etudiant de notre department à cette conference."]
         }
       ],
 
-  ["filler02", "Question", {
-    q: "filler1",
-    as: [ "Option 1",
-          "Option 2"]
+  ["filler18", "Question", {
+    q: "Un étudiant s'adressant à un ami en revenant d'une conférence : ",
+    as: [ "Il y avait pas d’etudiants de notre department à cette conference.",
+          "Il n’y avait aucun etudiant de notre department à cette conference."]
         }
       ],
 
-  ["filler01", "Question", {
-    q: "filler1",
-    as: [ "Option 1",
-          "Option 2"]
+  ["filler19", "Question", {
+    q: "Le maire du village s'adressant a un employé : ",
+    as: [ "Je n' ai pas vu de drapeaux sur la place.",
+          "Je n'ai vu aucun drapeux sur la place."]
         }
       ],
 
-  ["filler02", "Question", {
-    q: "filler1",
-    as: [ "Option 1",
-          "Option 2"]
+  ["filler20", "Question", {
+    q: "Un papa s'adressant à son enfant : ",
+    as: [ "Je n' ai pas vu de drapeaux sur la place.",
+          "Je n'ai vu aucun drapeux sur la place."]
         }
       ],
 
-  ["filler01", "Question", {
-    q: "filler1",
-    as: [ "Option 1",
-          "Option 2"]
+  ["filler21", "Question", {
+    q: "Un professeur s'addressant a ses élèves :",
+    as: [ "Vous n'avez aucun devoir à faire pendant les vacances.",
+          "Vous n'avez pas de devoir à faire pendant les vacances."]
         }
       ],
 
-  ["filler02", "Question", {
-    q: "filler1",
-    as: [ "Option 1",
-          "Option 2"]
+  ["filler22", "Question", {
+    q: "Un enfant s'adressant a sa mère :",
+    as: [ "Je n'ai aucun devoir à faire pendant les vacances.",
+          "Je n'ai pas de devoir à faire pendant les vacances."]
         }
       ],
 
-  ["filler01", "Question", {
-    q: "filler1",
-    as: [ "Option 1",
-          "Option 2"]
+  ["filler23", "Question", {
+    q: "Une affiche sur la porte d'un laboratoire :",
+    as: [ "Merci de ne faire aucun bruit.",
+          "Merci de ne pas faire de bruit."]
         }
       ],
 
-  ["filler02", "Question", {
-    q: "filler1",
-    as: [ "Option 1",
-          "Option 2"]
+  ["filler24", "Question", {
+    q: "Une maman a ses enfants devant leur père qui dort :",
+    as: [ "Merci de ne faire aucun bruit.",
+          "Merci de ne pas faire de bruit."]
         }
       ],
 
   // UNIVERSAL QUANT FILLERS
-  ["filler03", "Question", {
-    q: "filler2",
-    as: [ "Option 1",
-          "Option 2"]
+  ["filler25", "Question", {
+    q: "Une collègue responsable d'organiser une fete pour la retraite d'un des ses collegues :",
+    as: [ "Tout ses amis sont invités?",
+          "Ses amis sont tous invités?"]
         }
       ],
 
-  ["filler04", "Question", {
-    q: "filler2",
-    as: [ "Option 1",
-          "Option 2"]
+  ["filler26", "Question", {
+    q: "Une maman s'adressant a son mari a propos de l'anniversaire de leur fils :",
+    as: [ "Tout ses amis sont invités?",
+          "Ses amis sont tous invités?"]
         }
       ],
 
-  ["filler03", "Question", {
-    q: "filler2",
-    as: [ "Option 1",
-          "Option 2"]
+  ["filler27", "Question", {
+    q: "Un professeur a son assistant a la fin d'un examen :",
+    as: [ "Toutes les copies sont rammassées?",
+          "Les copies sont toutes rammassées?"]
         }
       ],
 
-  ["filler04", "Question", {
-    q: "filler2",
-    as: [ "Option 1",
-          "Option 2"]
+  ["filler28", "Question", {
+    q: "Un élève s'addressant a son copain en sortant d'un examen : ",
+    as: [ "Toutes les copies sont rammassées?",
+          "Les copies sont toutes rammassées?"]
         }
       ],
 
-  ["filler03", "Question", {
-    q: "filler2",
-    as: [ "Option 1",
-          "Option 2"]
+  ["filler29", "Question", {
+    q: "Un hotelier à son collègue :",
+    as: [ "Toutes les tables sont décorées?",
+          "Les tables sont tous décorées?"]
         }
       ],
 
-  ["filler04", "Question", {
-    q: "filler2",
-    as: [ "Option 1",
-          "Option 2"]
+  ["filler30", "Question", {
+    q: "Une maman a son fils le jour de son anniversaire :",
+    as: [ "Toutes les tables sont décorées?",
+          "Les tables sont tous décorées?"]
         }
       ],
 
-  ["filler03", "Question", {
-    q: "filler2",
-    as: [ "Option 1",
-          "Option 2"]
+  ["filler31", "Question", {
+    q: "Le directeur de la banque à son employé :",
+    as: [ "Toutes les lumières sont éteintes?",
+          "Les lumières sont toutes éteintes?"]
         }
       ],
 
-  ["filler04", "Question", {
-    q: "filler2",
-    as: [ "Option 1",
-          "Option 2"]
+  ["filler32", "Question", {
+    q: "Un père à son fils alors qu'ils quittent la maison : ",
+    as: [ "Toutes les lumières sont éteintes?",
+          "Les lumières sont toutes éteintes?"]
         }
       ]
 
