@@ -6,7 +6,7 @@
     filler -
 */
 
-var shuffleSequence = seq("intro", seq(startsWith("practice")), sepWith("sep", seq(shuffle(randomize(startsWith("filler")), shuffle(randomize(startsWith("formal")), randomize(startsWith("informal")))))));
+var shuffleSequence = seq("consent", "instructions" seq(startsWith("practice")), sepWith("sep", seq(shuffle(randomize(startsWith("filler")), shuffle(randomize(startsWith("formal")), randomize(startsWith("informal")))))));
 var centerItems = true;
 
 
@@ -54,34 +54,48 @@ var items = [
   INTRODUCTION
   */
 
-  ["intro",
+  ["consent",
     //type
     "Form",
     //obligatory option that includes a HTML file that is a questionnaire
-    {html: { include: "example_intro.html" },
+    {html: { include: "consent.html" }
     //fields that need to have the right format when taking input from user
-    validators: {
+    // validators: {
       //age has to be a number
-      age: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018age\u2019"; }
-      }
+      // age: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018age\u2019"; }
+    // }
   } ],
 
+  ["instructions",
+    "Form",
+    {html: { include: "instructions.html"}
+      }
+  ],
+
+
+/*  ["questionnaire",
+    "Form",
+    {html: {include: "questionnaire.html"}
+      }
+  ],
+*/
+
   //PRACTICE Items
-    
+
   ["practice_01", "Question", {
     q: "Une maman à sa copine qui veux que ses enfants mangent sainement, mais:",
     as: [ "Les enfants mangent souvent des bonbons",
           "Les enfants souvent mangent des bonbons"]
         }
       ],
-    
+
    ["practice_02", "Question", {
        q: "Un quebeuois demandant:",
        as: ["Jamais, je ne dirais ce-là",
             "Je ne  dirais jamais ce-là"]
         }
       ],
-    
+
 
   // TARGET ITEMS
 
