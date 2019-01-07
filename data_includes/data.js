@@ -6,7 +6,7 @@
     filler -
 */
 
-var shuffleSequence = seq("intro", sepWith("sep", seq(shuffle(randomize(startsWith("filler")), shuffle(randomize(startsWith("formal")), randomize(startsWith("informal")))))));
+var shuffleSequence = seq("intro", seq(startsWith("practice")), sepWith("sep", seq(shuffle(randomize(startsWith("filler")), shuffle(randomize(startsWith("formal")), randomize(startsWith("informal")))))));
 var centerItems = true;
 
 
@@ -67,8 +67,21 @@ var items = [
   } ],
 
   //PRACTICE Items
-
-  ["practice", "DashedSentence", {s: "Voici un example pour vous exercer."}],
+    
+  ["practice_01", "Question", {
+    q: "Une maman à sa copine qui veux que ses enfants mangent sainement, mais:",
+    as: [ "Les enfants mangent souvent des bonbons",
+          "Les enfants souvent mangent des bonbons"]
+        }
+      ],
+    
+   ["practice_02", "Question", {
+       q: "Un quebeuois demandant:",
+       as: ["Jamais, je ne dirais ce-là",
+            "Je ne  dirais jamais ce-là"]
+        }
+      ],
+    
 
   // TARGET ITEMS
 
