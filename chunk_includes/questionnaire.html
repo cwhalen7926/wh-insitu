@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<title> Consent </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css">
+    body {
+      background: url("http://s12.postimg.org/cosr5owot/QBack.png");
+      text-align: left;
+      font-size: 88%;
+      font-family: Century Gothic;
+      text-align: left;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .body{
+      width: 100%;
+    }
+
+    form{
+      margin: 0 auto;
+      width: 90%;
+      clear: both;
+      padding: 2%;
+      border: 1px;
+      border-style: solid;
+      box-shadow: 10px 10px 5px #888888;
+      background-color: white;
+    }
+
+    input[type=submit] {
+      width: 135px;
+      height: 70px;
+      cursor:pointer;
+    }
+  </style>
+</head>
+
+<body class="body">
+
+  <div style="display:none">
+    <!-- List images here in the same syntax -->
+    <!-- <img src = "___image src____" /> -->
+    <img src = "http://www.sjsu.edu/linguistics/pics/lld_wordle_660px.jpg" />
+  </div>
+
+<form style="width: 40em;">
+  <h1>Questionnaire</h1>
+
+  <h2>Merci de répondre aux questions suivantes!</h2>
+
+  <tr>
+    <td>1. Dans quelle village/ville/région habitez-vous maintenant?</td><td><input name="ville-courante" type="text" size="30" class="obligatory" /></td>
+  </tr>
+  <tr>
+  <td colspan="2"><label class="error" for="ville-courante"></label></td>
+  </tr>
+
+  <tr>
+    <td>2. Dans quelle village/ville/région avez-vous été élevé?</td><td><input name="ville-elevé" type="text" size="30" class="obligatory" /></td>
+  </tr>
+  <tr>
+  <td colspan="2"><label class="error" for="ville-elevé"></label></td>
+  </tr>
+
+  <tr>
+    <td>3. Dans quelle village/ville/région êtes-vous né(e)?</td><td><input name="ville-née" type="text" size="30" class="obligatory" /></td>
+  </tr>
+  <tr>
+  <td colspan="2"><label class="error" for="ville-née"></label></td>
+  </tr>
+
+  <!--
+  <tr>
+    <td>How often do you read: <i>(daily, weekly, occasionally, never)</i></td>
+  </tr>
+   fiction scale
+  -->
+  <tr>
+    <td>4. Votre sexe : </td>
+    <td>
+       the buttons for the scalng option
+      <table id="Scaling">
+        <tr>
+           <td><label>Homme <input id="homme" type="radio" name="sexe" value="homme" /></label></td>
+           <td><label>Femme <input type="radio" name="sexe" value="femme" /></label></td>
+           <td><label>Autre <input type="radio" name="sexe" value="autre" /></label></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+  <td colspan="2"><label class="error" for="readingfic"></label></td>
+  </tr>
+
+  <tr>
+    <td>7. Quelle est votre langue maternelle?</td><td><input name="langue-maternelle" type="text" size="30" class="obligatory" /></td>
+  </tr>
+  <tr>
+  <td colspan="2"><label class="error" for="langue-maternelle"></label></td>
+  </tr>
+
+  <tr>
+    <td>8. Quelles autres langues parlez-vous et à quel niveau? (débutant, intermédiaire, courant, natif)</td><td><input name="langues-add" type="text" size="30" class="obligatory" /></td>
+  </tr>
+  <tr>
+  <td colspan="2"><label class="error" for="langues-add"></label></td>
+  </tr>
+
+  <tr>
+    <td>9. Merci de tous commentaires ou suggestions que vous pourriez avoir:</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <textarea name="commentaires" rows="5" cols="40"></textarea>
+    </td>
+  </tr>
+
+  <tr>
+    <td>10. Veuillez laisser votre email si vous souhaitez que nous vous contactions:</td>
+    <tr>
+      <td colspan="2">
+        <textarea name="email" rows="5" cols="40"></textarea>
+      </td>
+    </tr>
+
+</form>
+
+</body>
+
+</html>
