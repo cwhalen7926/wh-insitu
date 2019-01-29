@@ -6,7 +6,7 @@
     filler -
 */
 
-var shuffleSequence = seq("consent", "instructions", seq(startsWith("practice")), sepWith("sep", seq(shuffle(randomize(startsWith("filler")), shuffle(randomize(startsWith("formal")), randomize(startsWith("informal")))))));
+var shuffleSequence = seq("consent", "instructions", seq(startsWith("practice")), sepWith("sep", seq(shuffle(randomize(startsWith("filler")), shuffle(randomize(startsWith("formal")), randomize(startsWith("informal")))))), "questionnaire");
 var centerItems = true;
 
 
@@ -73,12 +73,12 @@ var items = [
   ],
 
 
-/*  ["questionnaire",
+  ["questionnaire",
     "Form",
     {html: {include: "questionnaire.html"}
       }
   ],
-*/
+
 
   //PRACTICE Items
 
