@@ -25,7 +25,7 @@ jqueryWidget: {
                  function (field) { return "You must check the " + field + " checkbox to continue."; });
         this.obligatoryRadioErrorGenerator =
             dget(this.options, "obligatoryRadioErrorGenerator",
-                 function (field) { return "You must select an option for \u2018" + field + "\u2019."; });
+                 function (field) { return "Merci de selectionner une option pour consentir."; });
 
         var t = this;
 
