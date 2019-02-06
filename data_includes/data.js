@@ -125,14 +125,14 @@ var items = [
       ],
 
   ["formal03", "Question", {
-    q: "S’addressant à un chef de gare sur le quai d’un train qui arrive en gare :",
+    q: "S’adressant à un chef de gare sur le quai d’un train qui arrive en gare :",
     as: [ "Pardon, j’ai besoin d’aide. Il va où, ce train?",
           "Pardon, j’ai besoin d’aide.  Où il va, ce train?"]
         }
       ],
 
   ["formal04", "Question", {
-    q: "À un usager inconnu qui court sur le quai :",
+    q: "À un usager inconnu qui se trouve sur le quai :",
     as: [ "Pardon, j’ai besoin d’aide. Il va où, ce train?",
           "Pardon, j’ai besoin d’aide.  Où il va, ce train?"]
         }
@@ -146,9 +146,9 @@ var items = [
       ],
 
   ["formal06", "Question", {
-    q: "Dans un abri-bus a un inconnu qui attend aussi :",
-    as: [ "Bonjour, le prochain bus 23 part quand?",
-          "Bonjour, quand part le prochain bus 23?"]
+    q: "Dans un abri-bus à un inconnu qui attend aussi :",
+    as: [ "Bonjour, le prochain bus 23 part quand. s'il vous plaît?",
+          "Bonjour, quand part le prochain bus 23, s'il vous plaît?"]
         }
       ],
 
@@ -175,9 +175,9 @@ var items = [
       ],
 
   ["informal10", "Question", {
-    q: "À une amie qui ne s’interesse pas vraiment a la décoration?",
-    as: [ "On peut mettre quelle couleur pour eclaircir une pièce?",
-          "Quelle couleur on peut mettre pour eclairir une pièce?"]
+    q: "À une amie qui ne s’interesse pas vraiment à la décoration",
+    as: [ "On peut mettre quelle couleur pour éclaircir une pièce?",
+          "Quelle couleur on peut mettre pour éclaircir une pièce?"]
         }
       ],
 
@@ -211,23 +211,23 @@ var items = [
 
   ["informal15", "Question", {
     q: "À un ami expert en recrutement professionel : ",
-    as: [ "D'aprés toi, on met son expérience professionelle où dans son cv?",
-          "D'aprés toi, où on met son expérience professionelle dans son cv?"]
+    as: [ "D'après toi, on la met où son expérience professionelle dans son CV?",
+          "D'après toi, où on met son expérience professionelle dans son CV?"]
         }
       ],
 
   ["informal16", "Question", {
-    q: "Une fille qui fait son premier cv, à sa meilleure copine :",
-    as: [ "D'aprés toi, on met son experience professionelle ou dans son cv?",
-          "D'aprés toi, ou on met son experience professionelle dans son cv?"]
+    q: "Une fille qui écrit son premier CV, à sa meilleure copine :",
+    as: [ "D'après toi, on la met où son expérience professionelle dans son CV?",
+          "D'après toi, où on met son expérience professionelle dans son CV?"]
         }
       ],
 
   // NEGATIVE FILLERS
   ["filler17", "Question", {
-    q: "Un professeur du départment qui revient d’une conférence s’addressant a son collègue :",
-    as: [ "Il y avait pas d’étudiants de notre department à cette conférence.",
-          "Il n’y avait aucun étudiant de notre department à cette conférence."]
+    q: "Un professeur du département qui revient d’une conférence s’addressant à son collègue :",
+    as: [ "Il y avait pas d’étudiants de notre département à cette conférence.",
+          "Il n’y avait aucun étudiant de notre département à cette conférence."]
         }
       ],
 
@@ -253,14 +253,14 @@ var items = [
       ],
 
   ["filler21", "Question", {
-    q: "Un professeur s'addressant a ses élèves :",
+    q: "Un professeur s'adressant à ses élèves :",
     as: [ "Vous n'avez aucun devoir à faire pendant les vacances.",
           "Vous n'avez pas de devoir à faire pendant les vacances."]
         }
       ],
 
   ["filler22", "Question", {
-    q: "Un enfant s'adressant a sa mère :",
+    q: "Un enfant s'adressant à sa mère :",
     as: [ "Je n'ai aucun devoir à faire pendant les vacances.",
           "Je n'ai pas de devoir à faire pendant les vacances."]
         }
@@ -274,7 +274,7 @@ var items = [
       ],
 
   ["filler24", "Question", {
-    q: "Une maman a ses enfants devant leur père qui dort :",
+    q: "Une maman à ses enfants devant leur père qui dort :",
     as: [ "Merci de ne faire aucun bruit.",
           "Merci de ne pas faire de bruit."]
         }
@@ -282,7 +282,7 @@ var items = [
 
   // UNIVERSAL QUANT FILLERS
   ["filler25", "Question", {
-    q: "Une collègue responsable d'organiser une fête pour la retraite d'un des ses collegues :",
+    q: "Une employée responsable d'organiser une fête pour la retraite d'un des ses collégues :",
     as: [ "Tout ses amis sont invités?",
           "Ses amis sont tous invités?"]
         }
@@ -310,14 +310,14 @@ var items = [
       ],
 
   ["filler29", "Question", {
-    q: "Un hotelier à son collègue :",
+    q: "Un hôtelier à son collègue :",
     as: [ "Toutes les tables sont décorées?",
           "Les tables sont toutes décorées?"]
         }
       ],
 
   ["filler30", "Question", {
-    q: "Une maman a son fils le jour de son anniversaire :",
+    q: "Une maman à son fils le jour de son anniversaire :",
     as: [ "Toutes les tables sont décorées?",
           "Les tables sont toutes décorées?"]
         }
