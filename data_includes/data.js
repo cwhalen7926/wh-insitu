@@ -125,7 +125,7 @@ var items = [
       ],
 
   ["formal03", "Question", {
-    q: "S’adressant à un chef de gare sur le quai d’un train qui arrive sur le quai :",
+    q: "S’adressant à un chef de gare sur le quai d’un train qui arrive :",
     as: [ "Pardon, j’ai besoin d’aide. Il va où, ce train?",
           "Pardon, j’ai besoin d’aide.  Où il va, ce train?"]
         }
