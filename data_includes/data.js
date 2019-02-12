@@ -83,7 +83,7 @@ var items = [
   //PRACTICE Items
 
   ["practice_01", "Question", {
-    q: "Une maman à sa copine qui veut que ses enfants mangent sainement, mais:",
+    q: "Une maman dit à sa copine qui veut que ses enfants mangent sainement:",
     as: [ "Les enfants mangent souvent des bonbons",
           "Les enfants souvent mangent des bonbons"]
         }
