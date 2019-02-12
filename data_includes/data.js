@@ -226,22 +226,22 @@ var items = [
   // NEGATIVE FILLERS
   ["filler17", "Question", {
     q: "Un professeur du département qui revient d’une conférence s’addressant à son collègue :",
-    as: [ "Il y avait pas d’étudiants de notre département à cette conférence.",
+    as: [ "Il n'y avait pas d’étudiants de notre département à cette conférence.",
           "Il n’y avait aucun étudiant de notre département à cette conférence."]
         }
       ],
 
   ["filler18", "Question", {
     q: "Un étudiant s'adressant à un ami en revenant d'une conférence : ",
-    as: [ "Il y avait pas d’étudiants de notre department à cette conférence.",
-          "Il n’y avait aucun étudiant de notre department à cette conférence."]
+    as: [ "Il n'y avait pas d’étudiants de notre departement à cette conférence.",
+          "Il n’y avait aucun étudiant de notre departement à cette conférence."]
         }
       ],
 
   ["filler19", "Question", {
     q: "Le maire du village s'adressant à un employé : ",
     as: [ "Je n'ai pas vu de drapeaux sur la place.",
-          "Je n'ai vu aucun drapeux sur la place."]
+          "Je n'ai vu aucun drapeau sur la place."]
         }
       ],
 
