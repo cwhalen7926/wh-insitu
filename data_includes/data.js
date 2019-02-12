@@ -83,16 +83,16 @@ var items = [
   //PRACTICE Items
 
   ["practice_01", "Question", {
-    q: "Une maman à sa copine qui veux que ses enfants mangent sainement, mais:",
+    q: "Une maman dit à sa copine qui veut que ses enfants mangent sainement:",
     as: [ "Les enfants mangent souvent des bonbons",
           "Les enfants souvent mangent des bonbons"]
         }
       ],
 
    ["practice_02", "Question", {
-       q: "Un quebeuois demandant:",
-       as: ["Jamais, je ne dirais ce-là",
-            "Je ne  dirais jamais ce-là"]
+       q: "Un québécois en protestant:",
+       as: ["Jamais, je ne dirais cela",
+            "Je ne  dirais jamais cela"]
         }
       ],
 
@@ -112,20 +112,20 @@ var items = [
   // FORMAL
   ["formal01", "Question", {
     q: "Un participant s’adressant au formateur qui a présenté une étude sur le placement des produits en rayon. C’est très intéressant ce que vous dites. Alors selon vous :",
-    as: [ "Les articles de toilettes seraient où dans ce magasin?",
-          "Où seraient les articles de toilettes dans ce magasin?"]
+    as: [ "Les articles de toilette seraient où dans ce magasin?",
+          "Où seraient les articles de toilette dans ce magasin?"]
         }
       ],
 
   ["formal02", "Question", {
     q: "S’adressant à une cliente perdue qui se plaint que les articles ont encore changé de place :",
-    as: [ "Les articles de toilettes sont où dans ce magasin?",
-          "Où sont les articles de toilettes dans ce magasin?"]
+    as: [ "Les articles de toilette sont où dans ce magasin?",
+          "Où sont les articles de toilette dans ce magasin?"]
         }
       ],
 
   ["formal03", "Question", {
-    q: "S’adressant à un chef de gare sur le quai d’un train qui arrive en gare :",
+    q: "S’adressant à un chef de gare sur le quai d’un train qui arrive :",
     as: [ "Pardon, j’ai besoin d’aide. Il va où, ce train?",
           "Pardon, j’ai besoin d’aide.  Où il va, ce train?"]
         }
@@ -153,14 +153,14 @@ var items = [
       ],
 
   ["formal07", "Question", {
-    q: "À un agent de voyage qui vante la traverse de l’atlantique en bateau :",
+    q: "À un agent de voyage qui vante la traversée de l’atlantique en bateau :",
     as: [ "Et alors, ça prend combien de temps la traversée?",
           "Et alors, combien de temps ça prend la traversée?"]
         }
       ],
 
   ["formal08", "Question", {
-    q: "Chez le coiffeur qui rêve de partir aux états-unis, en discutant de l'idée de prendre le bateau pour y aller :",
+    q: "Chez le coiffeur qui rêve de partir aux États-Unis, en discutant de l'idée de prendre le bateau pour y aller :",
     as: [ "À votre avis, ça prend combien de temps la traversée?",
           "À votre avis, combien de temps ça prend la traversée?"]
         }
@@ -168,9 +168,9 @@ var items = [
 
   // INFORMAL
   ["informal09", "Question", {
-    q: "À un ami decorateur qui vous conseille pour renover un appartement :",
+    q: "À un ami decorateur qui vous conseille pour rénover un appartement :",
     as: [ "On peut mettre quelle couleur pour eclaircir une pièce?",
-          "Quelle couleur on peut mettre pour eclairir une pièce?"]
+          "Quelle couleur on peut mettre pour eclaircir une pièce?"]
         }
       ],
 
@@ -189,14 +189,14 @@ var items = [
       ],
 
   ["informal12", "Question", {
-    q: "Une fillette à sa mere qui vient de rentrer a la maison : Maman, la femme de ménage a encore rangé mon nounours. Tu sais toi?",
+    q: "Une fillette à sa mere qui vient de rentrer à la maison : Maman, la femme de ménage a encore rangé mon nounours. Tu sais toi... ",
     as: [ "Elle l’a mis où cette fois?",
           "Où elle l’a mis, cette fois?"]
         }
       ],
 
   ["informal13", "Question", {
-    q: "Une cliente à son ami qui vend des voitures : Elle est superbe, ca c’est sur... ",
+    q: "Une cliente à son ami qui vend des voitures : Elle est superbe, ça c’est sûr... ",
     as: [ "Dis-moi, ça coute à peu pres combien une voiture comme ça?",
           "Dis-moi, combien ça coute à peu pres une voiture comme ça?"]
         }
@@ -226,22 +226,22 @@ var items = [
   // NEGATIVE FILLERS
   ["filler17", "Question", {
     q: "Un professeur du département qui revient d’une conférence s’addressant à son collègue :",
-    as: [ "Il y avait pas d’étudiants de notre département à cette conférence.",
+    as: [ "Il n'y avait pas d’étudiants de notre département à cette conférence.",
           "Il n’y avait aucun étudiant de notre département à cette conférence."]
         }
       ],
 
   ["filler18", "Question", {
     q: "Un étudiant s'adressant à un ami en revenant d'une conférence : ",
-    as: [ "Il y avait pas d’étudiants de notre department à cette conférence.",
-          "Il n’y avait aucun étudiant de notre department à cette conférence."]
+    as: [ "Il n'y avait pas d’étudiants de notre departement à cette conférence.",
+          "Il n’y avait aucun étudiant de notre departement à cette conférence."]
         }
       ],
 
   ["filler19", "Question", {
-    q: "Le maire du village s'adressant a un employé : ",
+    q: "Le maire du village s'adressant à un employé : ",
     as: [ "Je n'ai pas vu de drapeaux sur la place.",
-          "Je n'ai vu aucun drapeux sur la place."]
+          "Je n'ai vu aucun drapeau sur la place."]
         }
       ],
 
@@ -283,7 +283,7 @@ var items = [
   // UNIVERSAL QUANT FILLERS
   ["filler25", "Question", {
     q: "Une employée responsable d'organiser une fête pour la retraite d'un des ses collégues :",
-    as: [ "Tout ses amis sont invités?",
+    as: [ "Tous ses amis sont invités?",
           "Ses amis sont tous invités?"]
         }
       ],
@@ -297,15 +297,15 @@ var items = [
 
   ["filler27", "Question", {
     q: "Un professeur à son assistant à la fin d'un examen :",
-    as: [ "Toutes les copies sont rammassées?",
-          "Les copies sont toutes rammassées?"]
+    as: [ "Toutes les copies sont ramassées?",
+          "Les copies sont toutes ramassées?"]
         }
       ],
 
   ["filler28", "Question", {
-    q: "Un élève s'addressant a son copain en sortant d'un examen : ",
-    as: [ "Toutes les copies sont rammassées?",
-          "Les copies sont toutes rammassées?"]
+    q: "Un élève s'addressant à son copain en sortant d'un examen : ",
+    as: [ "Toutes les copies sont ramassées?",
+          "Les copies sont toutes ramassées?"]
         }
       ],
 
