@@ -168,7 +168,7 @@ var items = [
 
   // INFORMAL
   ["informal09", "Question", {
-    q: "À un ami decorateur qui vous conseille pour renover un appartement :",
+    q: "À un ami decorateur qui vous conseille pour rénover un appartement :",
     as: [ "On peut mettre quelle couleur pour eclaircir une pièce?",
           "Quelle couleur on peut mettre pour eclaircir une pièce?"]
         }
@@ -196,7 +196,7 @@ var items = [
       ],
 
   ["informal13", "Question", {
-    q: "Une cliente à son ami qui vend des voitures : Elle est superbe, ça c’est sur... ",
+    q: "Une cliente à son ami qui vend des voitures : Elle est superbe, ça c’est sûr... ",
     as: [ "Dis-moi, ça coute à peu pres combien une voiture comme ça?",
           "Dis-moi, combien ça coute à peu pres une voiture comme ça?"]
         }
