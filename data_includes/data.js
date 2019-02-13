@@ -189,7 +189,7 @@ var items = [
       ],
 
   ["informal12", "Question", {
-    q: "Une fillette à sa mere qui vient de rentrer à la maison : Maman, la femme de ménage a encore rangé mon nounours. Tu sais toi... ",
+    q: "Une fillette à sa mère qui vient de rentrer à la maison : Maman, la femme de ménage a encore rangé mon nounours. Tu sais toi... ",
     as: [ "Elle l’a mis où cette fois?",
           "Où elle l’a mis, cette fois?"]
         }
