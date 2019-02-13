@@ -168,7 +168,7 @@ var items = [
 
   // INFORMAL
   ["informal09", "Question", {
-    q: "À un ami decorateur qui vous conseille pour rénover un appartement :",
+    q: "À un ami décorateur qui vous conseille pour rénover votre appartement :",
     as: [ "On peut mettre quelle couleur pour eclaircir une pièce?",
           "Quelle couleur on peut mettre pour eclaircir une pièce?"]
         }
@@ -289,7 +289,7 @@ var items = [
       ],
 
   ["filler26", "Question", {
-    q: "Une maman s'adressant a son mari a propos de l'anniversaire de leur fils :",
+    q: "Une maman s'adressant à son mari à propos de l'anniversaire de leur fils :",
     as: [ "Tout ses amis sont invités?",
           "Ses amis sont tous invités?"]
         }
@@ -324,7 +324,7 @@ var items = [
       ],
 
   ["filler31", "Question", {
-    q: "A la fin de la journée, le directeur de la banque à son employé :",
+    q: "À la fin de la journée, le directeur de la banque à son employé :",
     as: [ "Toutes les lumières sont éteintes?",
           "Les lumières sont toutes éteintes?"]
         }
