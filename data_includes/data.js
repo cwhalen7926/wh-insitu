@@ -153,7 +153,7 @@ var items = [
       ],
 
   ["formal07", "Question", {
-    q: "À un agent de voyage qui vante la traversée de l’atlantique en bateau :",
+    q: "À un agent de voyage qui vante la traversée de l’Atlantique en bateau :",
     as: [ "Et alors, ça prend combien de temps la traversée?",
           "Et alors, combien de temps ça prend la traversée?"]
         }
@@ -189,14 +189,14 @@ var items = [
       ],
 
   ["informal12", "Question", {
-    q: "Une fillette à sa mère qui vient de rentrer à la maison : Maman, la femme de ménage a encore rangé mon nounours. Tu sais toi... ",
+    q: "Une fillette à sa mère qui vient de rentrer à la maison : Maman, la femme de ménage a encore rangé mon nounours.",
     as: [ "Elle l’a mis où cette fois?",
           "Où elle l’a mis, cette fois?"]
         }
       ],
 
   ["informal13", "Question", {
-    q: "Une cliente à son ami qui vend des voitures : Elle est superbe celle-là, ça c’est sûr... ",
+    q: "Une cliente à son ami qui vend des voitures : Elle est superbe celle-là, ça c’est sûr.",
     as: [ "Dis-moi, ça côute combien une voiture comme ça?",
           "Dis-moi, combien ça côute une voiture comme ça?"]
         }
@@ -225,7 +225,7 @@ var items = [
 
   // NEGATIVE FILLERS
   ["filler17", "Question", {
-    q: "Un professeur du département qui revient d’une conférence s’addressant à son collègue :",
+    q: "Un professeur du département qui revient d’une conférence, s’addressant à son collègue :",
     as: [ "Il n'y avait pas d’étudiants de notre département à cette conférence.",
           "Il n’y avait aucun étudiant de notre département à cette conférence."]
         }
@@ -267,7 +267,7 @@ var items = [
       ],
 
   ["filler23", "Question", {
-    q: "Une affiche sur la porte d'un laboratoire :",
+    q: "Une affiche sur la porte d'une bibliotéque :",
     as: [ "Merci de ne faire aucun bruit.",
           "Merci de ne pas faire de bruit."]
         }
