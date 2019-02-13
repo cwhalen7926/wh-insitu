@@ -160,7 +160,7 @@ var items = [
       ],
 
   ["formal08", "Question", {
-    q: "Chez le coiffeur qui rêve de partir aux États-Unis, en discutant de l'idée de prendre le bateau pour y aller :",
+    q: "Chez le coiffeur: une cliente qui rêve de partir aux États-Unis en bateau:",
     as: [ "À votre avis, ça prend combien de temps la traversée?",
           "À votre avis, combien de temps ça prend la traversée?"]
         }
