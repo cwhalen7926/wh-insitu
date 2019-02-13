@@ -86,9 +86,9 @@
        <!-- the buttons for the scalng option -->
       <table id="Scaling">
         <tr>
-           <td><label>Homme<input id="homme" type="radio" name="sexe" value="homme" /></label></td>
-           <td><label>  Femme<input type="radio" name="sexe" value="femme" /></label></td>
-           <td><label>  Autre<input type="radio" name="sexe" value="autre" /></label></td>
+           <td><input id="homme" type="radio" name="sexe" value="homme" class="obligatory"/><label>Homme</label></td>
+           <td><input id="femme" type="radio" name="sexe" value="femme" class="obligatory"/><label>  Femme</label></td>
+           <td><input id="autre" type="radio" name="sexe" value="autre" class="obligatory"/><label>  Autre</label></td>
         </tr>
       </table>
     </td>
@@ -103,10 +103,10 @@
        <!-- the buttons for the scalng option -->
       <table id="Scaling">
         <tr>
-           <td><label>18-24<input id="homme" type="radio" name="age" value="18-24" /></label></td>
-           <td><label>  25-34<input type="radio" name="age" value="25-34" /></label></td>
-           <td><label>  35-49<input type="radio" name="age" value="35-49" /></label></td>
-           <td><label>  50+<input type="radio" name="age" value="50+" /></label></td>
+           <td><input id="18-24" type="radio" name="age" value="18-24" class="obligatory"/><label>18-24</label></td>
+           <td><input id="25-34" type="radio" name="age" value="25-34" class="obligatory"/><label>  25-34</label></td>
+           <td><input id="35-49" type="radio" name="age" value="35-49" class="obligatory"/><label>  35-49</label></td>
+           <td><input id="50+" type="radio" name="age" value="50+" class="obligatory"/><label>  50+</label></td>
         </tr>
       </table>
     </td>
@@ -121,12 +121,12 @@
        <!-- the buttons for the scalng option -->
       <table id="Scaling">
         <tr>
-           <td><label>aucun<input id="aucun" type="radio" name="education" value="aucun" /></label></td>
-           <td><label>  lycée<input type="radio" name="education" value="lycée" /></label></td>
-           <td><label>  post-baccaleauréat<input type="radio" name="education" value="post-baccaleauréat" /></label></td>
-           <td><label>  bac+2<input type="radio" name="education" value="bac+2" /></label></td>
-           <td><label>  bac+3<input type="radio" name="education" value="bac+3" /></label></td>
-           <td><label>  bac+5 et plus<input type="radio" name="education" value="bac+5 et plus" /></label></td>
+           <td><input id="aucun" type="radio" name="education" value="aucun" class="obligatory"/><label>aucun</label></td>
+           <td><input id="lycee" type="radio" name="education" value="lycée" class="obligatory"/><label>  lycée</label></td>
+           <td><input id="pb" type="radio" name="education" value="post-baccaleauréat" class="obligatory"/><label>  post-baccaleauréat</label></td>
+           <td><input id="b+2" type="radio" name="education" value="bac+2" class="obligatory"/><label>  bac+2</label></td>
+           <td><input id="b+3" type="radio" name="education" value="bac+3" class="obligatory"/><label>  bac+3</label></td>
+           <td><input id="b+5" type="radio" name="education" value="bac+5 et plus" class="obligatory"/><label>  bac+5 et plus</label></td>
         </tr>
       </table>
     </td>
@@ -143,10 +143,7 @@
   </tr>
 
   <tr>
-    <td>8. Quelles autres langues parlez-vous et à quel niveau? (débutant, intermédiaire, courant, natif)</td><td><input name="langues-add" type="text" size="30" class="obligatory" /></td>
-  </tr>
-  <tr>
-  <td colspan="2"><label class="error" for="langues-add"></label></td>
+    <td>8. Quelles autres langues parlez-vous et à quel niveau? (débutant, intermédiaire, courant, natif)</td><td><input name="langues-add" type="text" size="30" /></td>
   </tr>
 
   <tr>
@@ -157,15 +154,6 @@
       <textarea name="commentaires" rows="5" cols="40"></textarea>
     </td>
   </tr>
-
-  <tr>
-    <td>10. Veuillez laisser votre email si vous souhaitez que nous vous contactions:</td>
-  </tr>
-    <tr>
-      <td colspan="2">
-        <textarea name="email" rows="5" cols="40"></textarea>
-      </td>
-    </tr>
   </table>
 </form>
 
