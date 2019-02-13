@@ -118,7 +118,7 @@ var items = [
       ],
 
   ["formal02", "Question", {
-    q: "S’adressant à une cliente perdue qui se plaint que les articles ont encore changé de place :",
+    q: "Dans un magasin, s’adressant à une cliente qui se plaint que les articles ont encore changé de place :",
     as: [ "Les articles de toilette sont où dans ce magasin?",
           "Où sont les articles de toilette dans ce magasin?"]
         }
@@ -132,7 +132,7 @@ var items = [
       ],
 
   ["formal04", "Question", {
-    q: "À un usager inconnu qui se trouve sur le quai :",
+    q: "Dans une gare, à un usager inconnu qui se trouve sur le quai :",
     as: [ "Pardon, j’ai besoin d’aide. Il va où, ce train?",
           "Pardon, j’ai besoin d’aide.  Où il va, ce train?"]
         }
@@ -175,14 +175,14 @@ var items = [
       ],
 
   ["informal10", "Question", {
-    q: "À une amie qui ne s’interesse pas vraiment à la décoration",
+    q: "À une amie qui ne s’intéresse pas vraiment à la décoration",
     as: [ "On peut mettre quelle couleur pour éclaircir une pièce?",
           "Quelle couleur on peut mettre pour éclaircir une pièce?"]
         }
       ],
 
   ["informal11", "Question", {
-    q: "Une fillette à son frère : Jean, Maman a encore rangé mon nounours et je sais que tu l’as vue.",
+    q: "Une fillette à son frère : Jean, Maman a encore rangé mon nounours et je sais que tu l’as vu faire.",
     as: [ "Elle l’a mis où cette fois?",
           "Où elle l’a mis, cette fois?"]
         }
@@ -197,15 +197,15 @@ var items = [
 
   ["informal13", "Question", {
     q: "Une cliente à son ami qui vend des voitures : Elle est superbe celle-là, ça c’est sûr... ",
-    as: [ "Dis-moi, ça côute à peu près combien une voiture comme ça?",
-          "Dis-moi, combien ça coute à peu près une voiture comme ça?"]
+    as: [ "Dis-moi, ça côute combien une voiture comme ça?",
+          "Dis-moi, combien ça côute une voiture comme ça?"]
         }
       ],
 
   ["informal14", "Question", {
     q: "Une fille à sa copine qui admire une voiture dans un parking.",
-    as: [ "À ton avis, ça coute à peu pres combien une voiture comme ça?",
-          "À ton avis, combien ça coute à peu pres une voiture comme ça?"]
+    as: [ "À ton avis, ça côute combien une voiture comme ça?",
+          "À ton avis, combien ça côute une voiture comme ça?"]
         }
       ],
 
@@ -233,8 +233,8 @@ var items = [
 
   ["filler18", "Question", {
     q: "Un étudiant s'adressant à un ami en revenant d'une conférence : ",
-    as: [ "Il n'y avait pas d’étudiants de notre departement à cette conférence.",
-          "Il n’y avait aucun étudiant de notre departement à cette conférence."]
+    as: [ "Il n'y avait pas d’étudiants de notre département à cette conférence.",
+          "Il n’y avait aucun étudiant de notre département à cette conférence."]
         }
       ],
 
@@ -324,7 +324,7 @@ var items = [
       ],
 
   ["filler31", "Question", {
-    q: "Le directeur de la banque à son employé :",
+    q: "A la fin de la journée, le directeur de la banque à son employé :",
     as: [ "Toutes les lumières sont éteintes?",
           "Les lumières sont toutes éteintes?"]
         }
