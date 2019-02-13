@@ -111,9 +111,9 @@ var items = [
 
   // FORMAL
   ["formal01", "Question", {
-    q: "Un participant s’adressant au formateur qui a présenté une étude sur le placement des produits en rayon. C’est très intéressant ce que vous dites. Alors selon vous :",
-    as: [ "Les articles de toilette seraient où dans ce magasin?",
-          "Où seraient les articles de toilette dans ce magasin?"]
+    q: "Un participant s’adressant au formateur qui présente une étude sur le placement des produits en rayon. Alors selon vous :",
+    as: [ "Les articles de toilette seraient où dans un magasin?",
+          "Où seraient les articles de toilette dans un magasin?"]
         }
       ],
 
@@ -169,8 +169,8 @@ var items = [
   // INFORMAL
   ["informal09", "Question", {
     q: "À un ami décorateur qui vous conseille pour rénover votre appartement :",
-    as: [ "On peut mettre quelle couleur pour eclaircir une pièce?",
-          "Quelle couleur on peut mettre pour eclaircir une pièce?"]
+    as: [ "On peut mettre quelle couleur pour éclaircir une pièce?",
+          "Quelle couleur on peut mettre pour éclaircir une pièce?"]
         }
       ],
 
