@@ -282,7 +282,7 @@ var items = [
 
   // UNIVERSAL QUANT FILLERS
   ["filler25", "Question", {
-    q: "Une employée responsable d'organiser une fête pour la retraite d'un des ses collégues :",
+    q: "Une employée responsable d'organiser une fête pour la retraite d'une des ses collégues :",
     as: [ "Tous ses amis sont invités?",
           "Ses amis sont tous invités?"]
         }
