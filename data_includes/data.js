@@ -196,9 +196,9 @@ var items = [
       ],
 
   ["informal13", "Question", {
-    q: "Une cliente à son ami qui vend des voitures : Elle est superbe, ça c’est sûr... ",
-    as: [ "Dis-moi, ça coute à peu pres combien une voiture comme ça?",
-          "Dis-moi, combien ça coute à peu pres une voiture comme ça?"]
+    q: "Une cliente à son ami qui vend des voitures : Elle est superbe celle-là, ça c’est sûr... ",
+    as: [ "Dis-moi, ça côute à peu près combien une voiture comme ça?",
+          "Dis-moi, combien ça coute à peu près une voiture comme ça?"]
         }
       ],
 
@@ -248,7 +248,7 @@ var items = [
   ["filler20", "Question", {
     q: "Un papa s'adressant à son enfant : ",
     as: [ "Je n'ai pas vu de drapeaux sur la place.",
-          "Je n'ai vu aucun drapeux sur la place."]
+          "Je n'ai vu aucun drapeau sur la place."]
         }
       ],
 
