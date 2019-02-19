@@ -24,7 +24,7 @@ var defaults = [
       hasCorrect: false,
       randomOrder: true,
       showNumbers: true,
-      instructions: "S'il vous plaît, lisez la réplique et choisissez la réponse qui vous semble la plus naturelle."
+      instructions: "S'il vous plaît, choisissez la réponse qui vous semble la plus naturelle."
         //if a question has a correct answer,
           //keep it as the first element of the "as" option
   },
