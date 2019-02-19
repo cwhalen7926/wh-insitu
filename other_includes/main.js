@@ -200,7 +200,7 @@ $.widget("ui.__SendResults__", {
 		    function() {
                         RESULTS_HAVE_ALREADY_BEEN_SENT = true;
                         spinSpanShouldBeSpinning = false;
-			t.element.empty().append($("<div>").addClass("sending-results").text(conf_completionMessage));
+			t.element.empty().append($("<div>").addClass("sending-results").text(conf_completionMessage + "FF"));
 			t.options._finishedCallback();
 		    },
 		    function() {
