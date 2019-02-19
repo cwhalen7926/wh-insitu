@@ -175,7 +175,7 @@ $.widget("ui.__SendResults__", {
         this.element.append($("<table>")
                             .addClass("sending-results")
                             .append($("<tr>")
-                                    .append($("<td>").text(conf_sendingResultsMessage + " " ))
+                                    .append($("<td>").text(conf_sendingResultsMessage + ":) " ))
                                     .append($("<td>").css('width', '1.5em').append(spinSpan = $("<span>").text("/")))));
 
         // Clear "practice" notice if it's still up.
