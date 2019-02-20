@@ -34,7 +34,14 @@ var defaults = [
       hideProgressBar: true,
       continueOnReturn: true,
       saveReactionTime: true
-  }
+  },
+
+  "Questionnaire", {
+    //"html" option is obligatory
+    hideProgressBar: true,
+    continueOnReturn: true,
+    saveReactionTime: true
+}
 ];
 
 var items = [
@@ -74,7 +81,7 @@ var items = [
 
 
   ["questionnaire",
-    "Form",
+    "Questionnaire",
     {html: {include: "questionnaire.html"}
       }
   ],
