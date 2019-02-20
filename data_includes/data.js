@@ -98,8 +98,8 @@ var items = [
 
    ["practice_02", "Question", {
        q: "Un québécois en protestant:",
-       as: ["Jamais, je ne dirais cela",
-            "Je ne  dirais jamais cela"]
+       as: ["Jamais, je ne dirais cela.",
+            "Je dirais jamais ça."]
         }
       ],
 
